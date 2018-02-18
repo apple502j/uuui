@@ -3,8 +3,8 @@
 // @version      0.1
 // @description  UnusedUI Helper
 // @author       Apple502j and Kenny2scratch
-// @match        https://wiki.scratch.mit.edu/wiki/*
-// @match        https://wiki.scratch.mit.edu/w/*
+// @match        https://en.scratch-wiki.info/wiki/*
+// @match        https://en.scratch-wiki.info/w/*
 // ==/UserScript==
 
 // (C) 2018 Apple502j,Kenny2github All rights reserved
@@ -38,7 +38,7 @@ function done(settings) {
         summ.style.border = '1px solid #d9dbe0';
         summ.style.backgroundColor = 'f8f9fa';
         summ.style.padding = '1px 4px';
-        summ.title = 'Insert canned edit summary';
+        summ.title = 'UUUI:';
         summ.onclick = function(){
             document.getElementById('wpTextbox1').value += "{{unusedui|year={{subst:REVISIONYEAR}}|month={{subst:REVISIONMONTH1}}|day={{subst:REVISIONDAY}}}}";
             document.getElementById('wpSummary').value = this.innerHTML;
